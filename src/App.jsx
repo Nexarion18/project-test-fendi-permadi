@@ -1,6 +1,6 @@
-import { NavLink, BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Layout from "./Components/Layout";
-import Ideas from "./pages/ideas";
+import Ideas from "./pages/Ideas";
 
 const App = () => {
   return (

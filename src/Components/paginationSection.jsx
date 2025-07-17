@@ -7,7 +7,7 @@ import {
   PaginationLink,
   PaginationPrevious,
   PaginationNext,
-} from "@/components/ui/pagination"
+} from "@/Components/ui/pagination"
 
 const PaginationSection= ({
   page,
