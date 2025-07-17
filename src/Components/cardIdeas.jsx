@@ -3,7 +3,7 @@ import fallbackImage from "../assets/images/fallback.png";
 import LoadingAnimation from "./ui/loading";
 
 const CardIdea = ({ idea }) => {
-  const [loading, setLoading] = useState(true); // default true: belum load
+  const [loading, setLoading] = useState(true); 
   const [error, setError] = useState(false);
 
   if (!idea) return null;
